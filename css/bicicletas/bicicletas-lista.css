@@ -40,6 +40,10 @@
     height: 8px;
     width: 12px;
     margin-right: 8px;
+    transition: width 0.2s  ;
+}
+.bicicletas-lista a:hover h3::before{
+    width: 24px;
 }
 .bicicletas-lista li span{
     padding-left: 20px;
